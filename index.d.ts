@@ -88,7 +88,8 @@ export interface ReactNativeSideMenuProps {
      * Page overlay color when sidebar open
      * @default transparent
      */
-    overlayColor?: string
+    overlayColor?: string,
+    children?: ReactNode
 }
 
 export default class SideMenu extends Component<ReactNativeSideMenuProps> {
