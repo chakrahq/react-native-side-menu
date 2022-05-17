@@ -33,7 +33,8 @@ type Props = {
   allowOverlayPressPropagation: bool,
   overlayColor: string,
   overlayOpacity: number,
-  animateOverlayOpacity: bool
+  animateOverlayOpacity: bool,
+  children: React.ReactNode
 };
 
 type Event = {
